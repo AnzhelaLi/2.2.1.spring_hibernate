@@ -21,11 +21,6 @@ public class UserDaoImp implements UserDao {
         sessionFactory.getCurrentSession().save(user);
     }
 
-  /* @Override
-   public void add(Car car) {
-      sessionFactory.getCurrentSession().save(car);
-   }*/
-
     @Override
     @SuppressWarnings("unchecked")
     public List<User> listUsers() {
